@@ -5,12 +5,8 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "main.py" }
-    ]
-  }
-  {
-    "build": {
-      "env": {
-        "PYTHON_VERSION": "3.10"
-      }
+    ],
+    "env": {
+      "PYTHON_VERSION": "3.10"
     }
   }
