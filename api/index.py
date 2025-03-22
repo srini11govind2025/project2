@@ -5,7 +5,7 @@ app = FastAPI()
 @app.get("/")
 def home():
     return {"message": "IITM Tools API is running!"}
-
+@app.post("/")
 @app.post("/api/")
 async def answer_question(
     question: str = Form(...),
